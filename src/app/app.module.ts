@@ -3,14 +3,33 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { NavheaderComponent } from './navheader/navheader.component';
+import { MyTeamComponent } from './my-team/my-team.component';
+import { LastGameComponent } from './last-game/last-game.component';
+import { PerformanceComponent } from './performance/performance.component';
+import { SeasonComponent } from './season/season.component';
+import { HeadToHeadComponent } from './head-to-head/head-to-head.component';
+import { AllPlayersComponent } from './all-players/all-players.component';
+import { CompetitionsComponent } from './competitions/competitions.component';
+import { LeagueTableComponent } from './league-table/league-table.component';
+import { AppRoutingModule }     from './app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavheaderComponent,
+    MyTeamComponent,
+    LastGameComponent,
+    PerformanceComponent,
+    SeasonComponent,
+    HeadToHeadComponent,
+    AllPlayersComponent,
+    CompetitionsComponent,
+    LeagueTableComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
